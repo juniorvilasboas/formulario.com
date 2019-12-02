@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.App {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+}
+
+.content img {
+    width: 100%;
+}
+
+.fundo {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px lightgray;
+    margin: 30px;
+    min-height: 533px;
+    padding: 30px;
+}
+
+.hidden {
+    display: none;
+}

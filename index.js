@@ -7,7 +7,7 @@ const banco = require('./lib/banco')
 const app = express()
 const path = require('path')
 const port = process.env.PORT || 3000
-//const dbConnection = sqlite.open(path.resolve(__dirname, 'banco.sqlite'), { Promise })
+const dbConnection = sqlite.open(path.resolve(__dirname, 'banco.sqlite'), { Promise })
 
 app.get('/admin', (req, res, next) => {
     if(req.hostname === 'localhost') {
